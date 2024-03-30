@@ -1,0 +1,9 @@
+h1 {
+    font-size: 30;
+    font-weight: 800;
+    color: black;
+}
+
+h1 span {
+    color: #53389E;
+}
