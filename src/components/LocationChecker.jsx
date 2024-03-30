@@ -105,7 +105,7 @@ const LocationChecker = () => {
       </div>
       <p>Mein Standort:</p>
       <p>{latitude ? `${latitude},${longitude}` : "leer"}</p>
-      <button onClick={getLocation}>n
+      <button onClick={getLocation}>
         Neu Laden
         {isLoading && <img src={refreshSVG} alt="refresh" className={styles.refreshIcon} />}
       </button>
